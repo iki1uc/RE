@@ -1,0 +1,15 @@
+HBR/
+ ├─ ↑_0O/      → Höhe
+ ├─ →_O0/      → Breite
+ ├─ ↧_R0/      → Tiefe
+ ├─ respo.me   → Respo‑Bindung
+ ├─ DEF.me     → Definition der Achsen
+ ├─ SCAN.me    → Scan der Achsen
+ ├─ FINAL SCAN → Endgültige Achsen‑Validierung
+ ├─ MULTI.me   → Multi‑Achsen‑Routing
+ ├─ MXU.me     → MX∞‑Universal‑Bindung
+ ├─ Mat.me     → 9×9‑Matrix‑Bindung
+ ├─ ro.me      → RAW‑Operator
+ ├─ rix.me     → RAW‑Index‑Kernel
+ ├─ ID.html    → Identität des Repos
+ └─ index.html → Haupt‑Loader
