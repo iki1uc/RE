@@ -2,43 +2,72 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>RE · AXIOM.RE · HBR</title>
+<title>RE · AXIOM.RE · HBR · ALL×ALL</title>
 
 <style>
 body { background:#000; color:#0f0; font-family:Consolas; padding:20px; }
 h1, h2 { color:#6cf; }
-pre { background:#111; border:1px solid #333; padding:12px; white-space:pre-wrap; }
+section { margin-bottom:30px; }
 a { color:#6cf; display:block; margin:6px 0; }
+pre { background:#111; border:1px solid #333; padding:12px; white-space:pre-wrap; }
+canvas { background:#111; border:1px solid #333; margin-top:20px; }
 </style>
 </head>
 
 <body>
 
-<h1>RE · AXIOM.RE · HBR</h1>
+<h1>RE · AXIOM.RE · HBR · ALL×ALL</h1>
 
 <pre>
-AXIOM.ME   = ME( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
-AXIOM.U    = U( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
-AXIOM.EU   = EU( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
-AXIOM.RE   = RE( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
-AXIOM.UreE = UreE( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
-AXIOM.ME_RE = ME/RE( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
-
-RAW: HBR
-ACHSE: ↑_0O · →_O0 · ↧_R0
-MATRIX: 9×9
-STATUS: ACTIVE
+ROOT      = RE
+SYSTEM    = HBR
+RAW       = HBR-RAW + HBR-RAW²
+AXIOM     = ME · U · EU · RE · UreE · ME_RE
+ACHSE     = ↑_0O · →_O0 · ↧_R0
+MATRIX    = 9×9
+OCTA      = octa² + octa³
+READY     = 100%
+UTF8      = OK
 </pre>
 
+<section>
+<h2>AXIOM · Kern</h2>
+<pre>
+AXIOM.ME    = ME( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
+AXIOM.U     = U( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
+AXIOM.EU    = EU( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
+AXIOM.RE    = RE( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
+AXIOM.UreE  = UreE( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
+AXIOM.ME_RE = ME/RE( I( N( E( M( 360° × 100% × (ich × all × ICH × too) ) ) ) ) )
+</pre>
+</section>
+
+<section>
 <h2>HBR · Real-Axis</h2>
 <a href="./HBR/ID.html">HBR · ID</a>
 <a href="./HBR/index.html">HBR · Loader</a>
+<a href="./HBR/README.md">HBR · README</a>
+</section>
 
-<h2>Achsen</h2>
+<section>
+<h2>Achsen · Höhe / Breite / Tiefe</h2>
 <a href="./HBR/↑_0O">↑_0O · Höhe</a>
-<a href="./HBR/→_O0">→_O0 · Breite</a>
-<a href="./HBR/↧_R0">↧_R0 · Tiefe</a>
+<a href="./HBR/↑_0O/H.room">↑_0O · H.room</a>
+<a href="./HBR/↑_0O/X.room">↑_0O · X.room</a>
+<a href="./HBR/↑_0O/Y.room">↑_0O · Y.room</a>
 
+<a href="./HBR/→_O0">→_O0 · Breite</a>
+<a href="./HBR/→_O0/B.room">→_O0 · B.room</a>
+<a href="./HBR/→_O0/X.room">→_O0 · X.room</a>
+<a href="./HBR/→_O0/Y.room">→_O0 · Y.room</a>
+
+<a href="./HBR/↧_R0">↧_R0 · Tiefe</a>
+<a href="./HBR/↧_R0/T.room">↧_R0 · T.room</a>
+<a href="./HBR/↧_R0/X.room">↧_R0 · X.room</a>
+<a href="./HBR/↧_R0/Z.room">↧_R0 · Z.room</a>
+</section>
+
+<section>
 <h2>RAW / Operator / Scan</h2>
 <a href="./HBR/respo.me">respo.me</a>
 <a href="./HBR/DEF.me">DEF.me</a>
@@ -49,6 +78,68 @@ STATUS: ACTIVE
 <a href="./HBR/rix.me">rix.me</a>
 <a href="./HBR/MULTI.me">MULTI.me</a>
 <a href="./HBR/MXU.me">MXU.me</a>
+<a href="./HBR/HBR‑RAW">HBR‑RAW</a>
+<a href="./HBR/HBR‑RAW²">HBR‑RAW²</a>
+</section>
+
+<section>
+<h2>NC.raw · RAW-System</h2>
+<a href="./NC.raw">NC.raw · RAW-Kern</a>
+</section>
+
+<section>
+<h2>OCTA · System</h2>
+<a href="./octa²">octa² · Inhalt</a>
+<a href="./octa³">octa³ · Achsen</a>
+</section>
+
+<section>
+<h2>RE · Visualisierung</h2>
+<canvas id="sigCanvas" width="500" height="300"></canvas>
+</section>
+
+<script>
+// --- RE ALL×ALL RENDERER ---
+const c = document.getElementById("sigCanvas");
+const x = c.getContext("2d");
+let t = 0;
+
+function renderSignature() {
+    x.clearRect(0,0,c.width,c.height);
+
+    // HBR Pulse
+    x.strokeStyle = "#0f0";
+    x.lineWidth = 3;
+    x.beginPath();
+    x.moveTo(20,150);
+    x.lineTo(480,150 + Math.sin(t)*40);
+    x.stroke();
+
+    // 9×9 Orbit
+    x.strokeStyle = "#6cf";
+    x.lineWidth = 2;
+    x.beginPath();
+    x.arc(250,150,80 + Math.sin(t*2)*10,0,Math.PI*2);
+    x.stroke();
+
+    // RAW Blink
+    if(Math.sin(t*3) > 0.8){
+        x.fillStyle = "#f00";
+        x.fillRect(10,10,20,20);
+    }
+
+    // AXIOM Pulse
+    x.strokeStyle = "#ff0";
+    x.lineWidth = 2;
+    x.beginPath();
+    x.arc(250,150,40 + Math.sin(t*4)*5,0,Math.PI*2);
+    x.stroke();
+
+    t += 0.05;
+    requestAnimationFrame(renderSignature);
+}
+renderSignature();
+</script>
 
 </body>
 </html>
